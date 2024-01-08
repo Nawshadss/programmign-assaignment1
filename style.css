@@ -127,7 +127,8 @@ h4 {
 }
 
 .leftside button:hover {
-  padding: 25px;
+  transform: scale(1.2);
+  border: grey 1px solid;
 }
 /* welcome to ends */
 /* place start */
@@ -169,6 +170,13 @@ h4 {
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
+  transition: all ease 0.2s;
+  cursor: pointer;
+}
+
+.place button:hover {
+  border: 1px solid #fff;
+  transform: scale(1.1);
 }
 /* place ends */
 
