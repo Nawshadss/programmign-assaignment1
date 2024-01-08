@@ -385,3 +385,31 @@ footer .contact h3 {
   display: flex;
   justify-content: space-between;
 }
+hr {
+  background-color: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+.icons {
+  text-align: center;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.foter1 button {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  background: transparent;
+  cursor: pointer;
+  transition: all ease-in 0.3s;
+  border: none;
+}
+.foter1 button:hover {
+  border: 1px solid #fff;
+  transform: scale(1.2);
+}
