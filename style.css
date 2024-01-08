@@ -177,7 +177,7 @@ h4 {
   display: flex;
   height: 735px;
   width: 1320px;
-  margin: 80px auto;
+  margin: 40px auto;
   justify-content: space-evenly;
   gap: 100px;
   align-items: center;
@@ -189,3 +189,199 @@ h4 {
   border: #f00 20px solid;
 }
 /* eclips ends */
+
+.hallways {
+  align-items: center;
+  text-align: center;
+  width: 1320px;
+  margin: 20px auto;
+}
+.hallways p {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 160% */
+}
+.hallways .function {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.hallways .holidayTitle {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.holidayTitle span {
+  color: #f00;
+  text-align: center;
+  font-family: "Merriweather";
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.underHolidays {
+  height: 670px;
+  background-image: url("resources/Rectangle 2.png");
+  background-repeat: no-repeat;
+  max-width: 1320px;
+  margin: 20px auto;
+  background-position: bottom;
+  display: flex;
+  position: relative;
+}
+.women {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  margin-top: 8px;
+}
+.abosolute {
+  position: absolute;
+  width: 280px;
+  height: 280px;
+  transform: rotate(-34.212deg);
+  transform: translateX(700px) translateY(100px);
+}
+/* holidays ends*/
+
+/* portfolio poart srts */
+.portfolio {
+  max-width: 1320px;
+  margin: 80px auto;
+}
+.portfolio h1 {
+  color: #070211;
+  font-family: "Merriweather";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+  line-height: 5px;
+}
+.portfolio h3 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.portfolio p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+/* portfolio poart ends */
+
+.subscribe {
+  width: 1320px;
+  height: 616px;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  max-width: 1320px;
+  margin: 80px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.subscribe img {
+  width: 150px;
+  height: 150px;
+  flex-shrink: 0;
+}
+
+.subscribe h1 {
+  color: #070211;
+  text-align: center;
+  font-family: "Merriweather";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+  line-height: 5px;
+}
+.subscribe p {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  padding: 0px 150px;
+}
+.input {
+  height: 72px;
+  align-items: center;
+  text-align: center;
+}
+.subscribe input[type="email"] {
+  border: none;
+  width: calc(648px - 240px);
+  border-radius: 50px 0px 0px 50px;
+  color: rgba(7, 2, 17, 0.3);
+  padding: 24px 56px;
+  font-size: 20px;
+  font-weight: 400;
+  outline: #f00;
+}
+
+.subscribe input[type="submit"] {
+  border-radius: 0px 50px 50px 0px;
+  background: rgb(185, 64, 64);
+  padding: 24px 56px;
+  border: none;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+.subscribe input[type="submit"]:hover {
+  background: #f00;
+}
+/* foter */
+footer {
+  height: 609px;
+  background: #070211;
+  padding: 120px calc(1600px - 1320px);
+}
+footer h1 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px; /* 166.667% */
+}
+footer .contact h3 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px; /* 166.667% */
+}
+
+.foter1 {
+  display: flex;
+  justify-content: space-between;
+}
